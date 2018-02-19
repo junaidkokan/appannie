@@ -10,11 +10,11 @@ setup(name='appannie',
       packages=['appannie'],
       install_requires=[
           'markdown',
-          urllib2,
-          urllib,
-          time,
-          json,
-          datetime,
-          retrying
+          'urllib2',
+          'urllib',
+          'time',
+          'json',
+          'datetime',
+          'retrying'
       ],
       zip_safe=False)
